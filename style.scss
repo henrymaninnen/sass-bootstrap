@@ -1,0 +1,41 @@
+//COLOR
+$main-color: #d39044;  
+$side-color: #ff24; 
+$border: 1px solid green;
+
+//MIXIN
+
+@mixin flex-center(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    height: 200px;
+    background-color: $side-color;
+    color: white;
+    @include flex-center();
+
+    .bigbox{
+        height: 100px;
+        background-color: yellowgreen;
+        @include flex-center();
+        h2{
+            color: black;
+        }
+        &:hover{
+            background-color:purple;
+        }
+    }
+    .smallbox{
+        background-color: $main-color;
+        height: 50px;
+        @include flex-center();
+        h2{
+            color: blue;
+        }
+        &:hover{
+            background-color: turquoise;
+        }
+    }
+}

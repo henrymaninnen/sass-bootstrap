@@ -1,0 +1,59 @@
+.box {
+  height: 200px;
+  background-color: #ff24;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box .bigbox {
+  height: 100px;
+  background-color: yellowgreen;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box .bigbox h2 {
+  color: black;
+}
+
+.box .bigbox:hover {
+  background-color: purple;
+}
+
+.box .smallbox {
+  background-color: #d39044;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box .smallbox h2 {
+  color: blue;
+}
+
+.box .smallbox:hover {
+  background-color: turquoise;
+}
+/*# sourceMappingURL=style.css.map */
